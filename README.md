@@ -77,4 +77,4 @@ python repair.py restore --target $edgeComponent
 
 其核心要求是：使用官方网页接口；不自动改用系统鼠标键盘或控制其他程序；处理外链时避免新标签抢焦点；核验真实页面及 Edge 的后台状态。
 
-### 有问题请在issue留言或致信gongwz77777@gmail.com，希望一起讨论共同进步
+##### 有问题请在issue留言或致信gongwz77777@gmail.com，希望一起讨论共同进步
