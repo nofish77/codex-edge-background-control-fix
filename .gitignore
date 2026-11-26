@@ -1,0 +1,10 @@
+.local/
+__pycache__/
+*.py[cod]
+*.backup.mjs
+*.repair-*.tmp
+browser-service-core*.mjs
+cdp-fixture*.mjs
+*.jsonl
+.env
+.env.*

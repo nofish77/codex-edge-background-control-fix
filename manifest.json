@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "target_file": "browser-service-core.mjs",
+  "component": "@oai/browser-desktop",
+  "codex_desktop_version": "26.1120.50957",
+  "tested_runtime_id": "5649c8f9b0cb6b03",
+  "tested_windows": {
+    "release": "26H2",
+    "build": "26300.9974",
+    "ui_language": "zh-CN",
+    "edition_id": "CoreCountrySpecific",
+    "registry_product_name": "Windows 10 Home China"
+  },
+  "tested_edge_version": "158.0.4370.33",
+  "tested_extension_version": "1.26.1021.11019",
+  "original_sha256": "ca8d561f8f590550be9af55aed38b8f5ff0b74a3ead9bcaa95d3ac244d68e3c4",
+  "patched_sha256": "3ffdab5e8170414d45309ad4543ad6a916e3744a43fa10fbba7bacee0bc518d7",
+  "patch": {
+    "before": "...i.preserveDebuggerOnTimeout===!0?{preserveDebuggerOnTimeout:!0}:{},timeoutMs:u",
+    "after": "...(i.preserveDebuggerOnTimeout===!0||n===\"Input.dispatchMouseEvent\"||n===\"Input.dispatchKeyEvent\"||n===\"Input.insertText\"||n===\"Runtime.evaluate\"||n===\"Runtime.callFunctionOn\")?{preserveDebuggerOnTimeout:!0}:{},timeoutMs:u"
+  },
+  "preserved_methods": [
+    "Input.dispatchMouseEvent",
+    "Input.dispatchKeyEvent",
+    "Input.insertText",
+    "Runtime.evaluate",
+    "Runtime.callFunctionOn"
+  ]
+}
